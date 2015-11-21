@@ -4,6 +4,11 @@
   overflow-y: auto;
   padding: 0 $base-spacing;
 
+  &__listminor {
+    padding-left: 15px;
+    font-size:0.90em;
+  }
+
   &__link {
     @include fill-parent;
     color: $base-font-color;
@@ -21,3 +26,5 @@
     }
   }
 }
+
+sidebar__list_minor
