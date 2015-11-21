@@ -9,6 +9,10 @@
     font-size: .90em;
   }
 
+  &__listminor a.sidebar__link {
+    padding-top: 1.25em;
+  }
+
   &__link {
     @include fill-parent;
     color: $base-font-color;
