@@ -2,7 +2,7 @@ module Administrate
   class Order
     def initialize(attribute = nil, direction = nil)
       @attribute = attribute
-      @direction = direction || :asc
+      @direction = direction || :desc
     end
 
     def apply(relation)
