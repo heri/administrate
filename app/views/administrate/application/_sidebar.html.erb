@@ -7,6 +7,8 @@ for all resources in the admin dashboard,
 as defined by the DashboardManifest.
 %>
 
+<a href="/"><img src="/assets/img/logo/logo.png" class="sidebar__logo" alt="DAMAVA"></a>
+
 <ul class="sidebar__list">
   <% DashboardManifest::DASHBOARDS.each do |resource| %>
     <li <% if DashboardManifest::MINOR.include?(resource)%>class="sidebar__listminor"<% end %>>
