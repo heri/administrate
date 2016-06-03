@@ -8,6 +8,7 @@ gem "delayed_job_active_record"
 gem "high_voltage"
 gem "pg"
 gem "unicorn"
+gem 'turbolinks', github: 'rails/turbolinks'
 
 group :development do
   gem "web-console", ">= 2.1.3"
